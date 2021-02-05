@@ -1,0 +1,22 @@
+{
+    "app": {
+      "name": "go-ech0-mongo",
+      "domain": "localhost",
+      "port": "9000",
+      "dev": true
+    },
+    "database": {
+      "mongodb": {
+        "host":"localhost:27017",
+        "user": "",
+        "password": "",
+        "db": "echo-mongo"
+      },
+      "mysql": {
+        "host":"localhost:3306",
+        "user": "root",
+        "password": "root",
+        "database": "echo"
+      }
+    }
+  }
